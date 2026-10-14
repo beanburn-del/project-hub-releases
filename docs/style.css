@@ -1,0 +1,6 @@
+:root{--bg:#0d0f15;--fg:#e9ecf2;--mut:#9aa3b2;--ac:#e8590c;--line:rgba(255,255,255,.1)}
+@media (prefers-color-scheme:light){:root{--bg:#f7f7f5;--fg:#16181d;--mut:#5f6878;--line:rgba(0,0,0,.1)}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.7 -apple-system,"Apple SD Gothic Neo","Pretendard","Malgun Gothic","Segoe UI",sans-serif}
+main{max-width:760px;margin:0 auto;padding:56px 20px 80px}h1{font-size:30px;line-height:1.25;margin:0 0 6px}h2{font-size:19px;margin:34px 0 8px}h3{font-size:16px;margin:20px 0 6px}
+p,li{color:var(--fg)}.mut{color:var(--mut);font-size:14px}a{color:var(--ac)}hr{border:0;border-top:1px solid var(--line);margin:40px 0}
+nav{display:flex;gap:16px;font-size:14px;margin-bottom:36px}nav b{margin-right:auto}footer{margin-top:56px;font-size:13px;color:var(--mut)}
